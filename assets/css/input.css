@@ -1,0 +1,44 @@
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+.input {
+  display: block;
+  width: 100%;
+  border: 1px solid #cccccc;
+  color: #333333;
+  padding: 10px 12px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in;
+}
+.label {
+  font-family: "Roboto", sans-serif;
+  color: #4b4b4b;
+  font-weight: 500;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.h2 {
+  font-family: Roboto;
+  font-size: 16pt;
+  color: #79b658;
+}
+.modal-content__field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width:430px) {
+  .form-group {
+    width: 85%;
+  }
+  .fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
